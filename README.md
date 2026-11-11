@@ -1,35 +1,32 @@
-# AtmoGraph: Supply Chain Ripple Effect Predictor
+# \## Supply Chain Data Preparation Plan
 
-## Project Overview
-AtmoGraph is a supply chain disruption prediction system that uses
-Natural Language Processing (NLP), Graph Neural Networks (GNNs),
-and graph databases to identify and predict the ripple effects
-of supply chain disruptions.
+# 
 
-## Objectives
-- Represent supply chain networks using graph structures.
-- Extract disruption-related information from news and text.
-- Identify affected suppliers, manufacturers, and shipping routes.
-- Predict downstream delays and supply chain risks.
-- Visualize disruptions through an interactive dashboard.
+# The data preparation stage focuses on organizing supply chain information for graph-based analysis and disruption prediction.
 
-## Proposed Technology Stack
-- Python
-- Neo4j
-- spaCy / Hugging Face
-- PyTorch Geometric
-- FastAPI
-- React
-- D3.js / React Flow
+# 
 
-## Project Workflow
-1. Supply chain data collection and preprocessing.
-2. Supply chain graph creation in Neo4j.
-3. NLP-based disruption information extraction.
-4. GNN-based ripple effect prediction.
-5. API integration and interactive visualization.
+# \### Planned Activities
 
-## Current Progress
-- GitHub repository created.
-- Initial project directory structure established.
-- Team collaboration setup initiated.
+# \- Collect or create sample supply chain data for suppliers, manufacturers, warehouses, ports, and shipping routes.
+
+# \- Identify entities and establish unique IDs for each supply chain node.
+
+# \- Define relationships between suppliers, manufacturers, and distribution networks.
+
+# \- Validate the dataset and handle missing or inconsistent records.
+
+# \- Prepare structured data for ingestion into the Neo4j graph database.
+
+# \- Maintain consistent data formats to support NLP-based disruption detection and GNN-based risk prediction.
+
+# 
+
+# \### Expected Outcome
+
+# A validated supply chain dataset with clearly defined nodes and relationships, ready for graph database integration and further analysis.
+
+# 
+
+# \*Note: This describes the planned preparation process. Actual implementation will be documented as development progresses.\*
+
