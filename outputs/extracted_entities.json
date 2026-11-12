@@ -1,0 +1,126 @@
+[
+    {
+        "article_id": "N001",
+        "original_text": "A major strike at Port of Rotterdam in Netherlands has disrupted shipping operations.",
+        "cleaned_text": "A major strike at Port of Rotterdam in Netherlands has disrupted shipping operations.",
+        "entities": [
+            {
+                "entity": "Port of Rotterdam",
+                "type": "FAC"
+            },
+            {
+                "entity": "Netherlands",
+                "type": "GPE"
+            }
+        ],
+        "event": {
+            "event_id": "EVT-851b5527",
+            "article_id": "N001",
+            "entity_name": "Port of Rotterdam",
+            "entity_type": "PORT",
+            "matched_node_id": null,
+            "event_type": "strike",
+            "location": "Netherlands",
+            "severity": "high",
+            "event_date": null,
+            "source": "sample_test_data",
+            "confidence": 0.7
+        }
+    },
+    {
+        "article_id": "N002",
+        "original_text": "Heavy flooding in Germany has affected several manufacturing companies.",
+        "cleaned_text": "Heavy flooding in Germany has affected several manufacturing companies.",
+        "entities": [
+            {
+                "entity": "Germany",
+                "type": "GPE"
+            }
+        ],
+        "event": {
+            "event_id": "EVT-76f3962f",
+            "article_id": "N002",
+            "entity_name": "manufacturing companies",
+            "entity_type": "INDUSTRY",
+            "matched_node_id": null,
+            "event_type": "flood",
+            "location": "Germany",
+            "severity": "high",
+            "event_date": null,
+            "source": "sample_test_data",
+            "confidence": 0.7
+        }
+    },
+    {
+        "article_id": "N003",
+        "original_text": "A fire at a major factory in China has stopped production.",
+        "cleaned_text": "A fire at a major factory in China has stopped production.",
+        "entities": [
+            {
+                "entity": "China",
+                "type": "GPE"
+            }
+        ],
+        "event": {
+            "event_id": "EVT-c389d303",
+            "article_id": "N003",
+            "entity_name": "factory",
+            "entity_type": "FACILITY",
+            "matched_node_id": null,
+            "event_type": "fire",
+            "location": "China",
+            "severity": "high",
+            "event_date": null,
+            "source": "sample_test_data",
+            "confidence": 0.7
+        }
+    },
+    {
+        "article_id": "N004",
+        "original_text": "Shipping delays at the Port of Singapore have affected global trade.",
+        "cleaned_text": "Shipping delays at the Port of Singapore have affected global trade.",
+        "entities": [
+            {
+                "entity": "the Port of Singapore",
+                "type": "LOC"
+            }
+        ],
+        "event": {
+            "event_id": "EVT-cff5c519",
+            "article_id": "N004",
+            "entity_name": "Port of Singapore",
+            "entity_type": "PORT",
+            "matched_node_id": null,
+            "event_type": "shipping_delay",
+            "location": "Singapore",
+            "severity": "medium",
+            "event_date": null,
+            "source": "sample_test_data",
+            "confidence": 0.7
+        }
+    },
+    {
+        "article_id": "N005",
+        "original_text": "A railway strike in France has disrupted transportation of goods.",
+        "cleaned_text": "A railway strike in France has disrupted transportation of goods.",
+        "entities": [
+            {
+                "entity": "France",
+                "type": "GPE"
+            }
+        ],
+        "event": {
+            "event_id": "EVT-73ef74da",
+            "article_id": "N005",
+            "entity_name": "railway",
+            "entity_type": "INFRASTRUCTURE",
+            "matched_node_id": null,
+            "event_type": "strike",
+            "location": "France",
+            "severity": "medium",
+            "event_date": null,
+            "source": "sample_test_data",
+            "confidence": 0.7
+        }
+    }
+]

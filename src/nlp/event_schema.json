@@ -1,0 +1,12 @@
+
+{
+    "event_id": "EVT-001",
+    "article_id": "N001",
+    "entity_name": "Port of Rotterdam",
+    "entity_type": "FAC",
+    "event_type": "port_strike",
+    "location": "Netherlands",
+    "severity": "high",
+    "event_date": null,
+    "matched_node_id": null
+}
