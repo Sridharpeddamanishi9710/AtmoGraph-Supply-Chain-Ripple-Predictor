@@ -131,7 +131,7 @@ def create_event(article_id, article_text, entities):
         "severity": severity,
         "event_date": event_date,
         "source": "sample_test_data",
-        "confidence": 0.70
+        "confidence": confidence
     }
 
     return event
