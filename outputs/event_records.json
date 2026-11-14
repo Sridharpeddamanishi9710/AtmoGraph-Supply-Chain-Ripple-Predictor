@@ -1,6 +1,6 @@
 [
     {
-        "event_id": "EVT-851b5527",
+        "event_id": "EVT-b6a38ee7",
         "article_id": "N001",
         "entity_name": "Port of Rotterdam",
         "entity_type": "PORT",
@@ -13,7 +13,7 @@
         "confidence": 0.7
     },
     {
-        "event_id": "EVT-76f3962f",
+        "event_id": "EVT-ede6b56b",
         "article_id": "N002",
         "entity_name": "manufacturing companies",
         "entity_type": "INDUSTRY",
@@ -26,7 +26,7 @@
         "confidence": 0.7
     },
     {
-        "event_id": "EVT-c389d303",
+        "event_id": "EVT-c8472710",
         "article_id": "N003",
         "entity_name": "factory",
         "entity_type": "FACILITY",
@@ -39,7 +39,7 @@
         "confidence": 0.7
     },
     {
-        "event_id": "EVT-cff5c519",
+        "event_id": "EVT-aac82a82",
         "article_id": "N004",
         "entity_name": "Port of Singapore",
         "entity_type": "PORT",
@@ -52,7 +52,7 @@
         "confidence": 0.7
     },
     {
-        "event_id": "EVT-73ef74da",
+        "event_id": "EVT-6b6e7535",
         "article_id": "N005",
         "entity_name": "railway",
         "entity_type": "INFRASTRUCTURE",
