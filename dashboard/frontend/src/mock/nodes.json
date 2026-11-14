@@ -1,0 +1,26 @@
+[
+  {
+    "node_id": "SUP-001",
+    "node_type": "supplier",
+    "name": "Supplier A",
+    "country": "China"
+  },
+  {
+    "node_id": "MFG-001",
+    "node_type": "manufacturer",
+    "name": "Factory B",
+    "country": "Vietnam"
+  },
+  {
+    "node_id": "PORT-003",
+    "node_type": "port",
+    "name": "Port C",
+    "country": "Europe"
+  },
+  {
+    "node_id": "DIS-001",
+    "node_type": "distributor",
+    "name": "Distributor D",
+    "country": "Germany"
+  }
+]

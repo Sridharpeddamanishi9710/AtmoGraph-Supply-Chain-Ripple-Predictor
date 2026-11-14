@@ -1,0 +1,18 @@
+[
+  {
+    "node_id": "PORT-003",
+    "risk_score": 0.87,
+    "risk_class": "high",
+    "estimated_delay_days": 5,
+    "horizon_days": 30,
+    "model_version": "mock-v0"
+  },
+  {
+    "node_id": "DIS-001",
+    "risk_score": 0.65,
+    "risk_class": "medium",
+    "estimated_delay_days": 3,
+    "horizon_days": 30,
+    "model_version": "mock-v0"
+  }
+]
