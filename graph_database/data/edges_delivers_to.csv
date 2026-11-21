@@ -1,0 +1,14 @@
+start_id,end_id,lead_time_days,volume,transport_mode,dependency_weight,source
+PORT_CNSHA,DIST_CHN_01,3,127692.82,Road,1.0,simulated
+PORT_USNYC,DIST_USA_01,3,75325.25,Road,1.0,simulated
+PORT_JPTYO,DIST_JPN_01,3,138733.93,Road,1.0,simulated
+PORT_DEHAM,DIST_DEU_01,3,61050.18,Road,1.0,simulated
+PORT_GBFXT,DIST_GBR_01,3,73024.08,Road,1.0,simulated
+PORT_FRLEH,DIST_FRA_01,3,111895.24,Road,1.0,simulated
+PORT_BRSSZ,DIST_BRA_01,3,51841.58,Road,1.0,simulated
+PORT_CAVAN,DIST_CAN_01,3,180751.67,Road,1.0,simulated
+PORT_AUBNE,DIST_AUS_01,3,57535.2,Road,1.0,simulated
+PORT_INNSA,DIST_IND_01,2,0.0,Road,0.25,simulated
+PORT_INMUN,DIST_IND_01,2,18572.22,Road,0.25,simulated
+PORT_INMAA,DIST_IND_01,2,21505.04,Road,0.25,simulated
+PORT_INCCU,DIST_IND_01,2,23268.33,Road,0.25,simulated

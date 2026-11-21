@@ -1,0 +1,6 @@
+id,name,country,country_iso3,lat,lon,primary_city,sku_count,avg_defect_rate,avg_supplier_lead_time_days,inspection_fail_share,geo_source,source
+SUP_001,Supplier 1,India,IND,22.5726,88.3639,Kolkata,27,1.804,14.78,0.222,derived_modal_city,derived
+SUP_002,Supplier 2,India,IND,28.6139,77.209,Delhi,22,2.363,18.55,0.364,derived_modal_city,derived
+SUP_003,Supplier 3,India,IND,13.0827,80.2707,Chennai,15,2.466,20.13,0.2,derived_modal_city,derived
+SUP_004,Supplier 4,India,IND,22.5726,88.3639,Kolkata,18,2.337,15.22,0.667,derived_modal_city,derived
+SUP_005,Supplier 5,India,IND,13.0827,80.2707,Chennai,18,2.665,18.06,0.389,derived_modal_city,derived

@@ -1,0 +1,39 @@
+label, nodes
+"Port", 13
+"DisruptionEvent", 12
+"Distributor", 10
+"Supplier", 5
+"Manufacturer", 5
+type, count
+"DELIVERS_TO", 13
+"HAD_DISRUPTION", 12
+"ROUTE_TO", 50
+"SHIPS_VIA", 9
+"SUPPLIES_TO", 25
+id, type, hops
+"DIST_IND_01", "Distributor", 1
+"PORT_CAVAN", "Port", 1
+"PORT_FRLEH", "Port", 1
+"PORT_USNYC", "Port", 1
+"DIST_CAN_01", "Distributor", 2
+"DIST_FRA_01", "Distributor", 2
+"DIST_USA_01", "Distributor", 2
+"PORT_CNSHA", "Port", 2
+"PORT_DEHAM", "Port", 2
+"PORT_GBFXT", "Port", 2
+"PORT_INMUN", "Port", 2
+"PORT_JPTYO", "Port", 2
+"DIST_CHN_01", "Distributor", 3
+"DIST_DEU_01", "Distributor", 3
+"DIST_GBR_01", "Distributor", 3
+"DIST_JPN_01", "Distributor", 3
+"PORT_AUBNE", "Port", 3
+"PORT_BRSSZ", "Port", 3
+"PORT_INCCU", "Port", 3
+"PORT_INMAA", "Port", 3
+"DIST_AUS_01", "Distributor", 4
+"DIST_BRA_01", "Distributor", 4
+path
+["SUP_001", "MFG_BLR", "PORT_INNSA", "PORT_USNYC", "DIST_USA_01"]
+["SUP_001", "MFG_DEL", "PORT_INNSA", "PORT_USNYC", "DIST_USA_01"]
+["SUP_001", "MFG_MUM", "PORT_INNSA", "PORT_USNYC", "DIST_USA_01"]

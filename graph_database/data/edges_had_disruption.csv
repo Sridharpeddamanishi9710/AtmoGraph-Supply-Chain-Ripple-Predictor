@@ -1,0 +1,13 @@
+start_id,end_id,source
+PORT_CNSHA,EVT_001,real (Port Disruption DB)
+PORT_USNYC,EVT_002,real (Port Disruption DB)
+PORT_USNYC,EVT_003,real (Port Disruption DB)
+PORT_USNYC,EVT_004,real (Port Disruption DB)
+PORT_USNYC,EVT_005,real (Port Disruption DB)
+PORT_JPTYO,EVT_006,real (Port Disruption DB)
+PORT_JPTYO,EVT_007,real (Port Disruption DB)
+PORT_AUBNE,EVT_008,real (Port Disruption DB)
+PORT_AUBNE,EVT_009,real (Port Disruption DB)
+PORT_AUBNE,EVT_010,real (Port Disruption DB)
+PORT_AUBNE,EVT_011,real (Port Disruption DB)
+PORT_AUBNE,EVT_012,real (Port Disruption DB)

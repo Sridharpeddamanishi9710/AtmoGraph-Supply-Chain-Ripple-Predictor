@@ -1,0 +1,6 @@
+id,name,country,country_iso3,lat,lon,city,sku_count,production_volume,avg_manufacturing_lead_time_days,avg_manufacturing_cost,avg_defect_rate,source
+MFG_MUM,Mumbai Manufacturing Hub,India,IND,19.076,72.8777,Mumbai,22,13160,19.73,36.73,2.122,derived
+MFG_DEL,Delhi Manufacturing Hub,India,IND,28.6139,77.209,Delhi,15,8362,13.53,48.88,2.229,derived
+MFG_BLR,Bangalore Manufacturing Hub,India,IND,12.9716,77.5946,Bangalore,18,7827,11.78,61.99,2.094,derived
+MFG_MAA,Chennai Manufacturing Hub,India,IND,13.0827,80.2707,Chennai,20,11984,12.65,51.15,2.638,derived
+MFG_CCU,Kolkata Manufacturing Hub,India,IND,22.5726,88.3639,Kolkata,25,15451,15.0,41.86,2.286,derived

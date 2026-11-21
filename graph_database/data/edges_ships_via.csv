@@ -1,0 +1,10 @@
+start_id,end_id,lead_time_days,volume,transport_mode,csv_modal_mode,dependency_weight,distance_km,source
+MFG_MUM,PORT_INNSA,5.55,758,Road,Air,0.7,15.9,simulated
+MFG_MUM,PORT_INMUN,5.55,325,Road,Air,0.3,524.3,simulated
+MFG_DEL,PORT_INMUN,5.93,440,Road,Rail,0.6,995.9,simulated
+MFG_DEL,PORT_INNSA,5.93,293,Road,Rail,0.4,1158.4,simulated
+MFG_BLR,PORT_INMAA,5.28,461,Road,Road,0.6,292.3,simulated
+MFG_BLR,PORT_INNSA,5.28,308,Road,Road,0.4,829.6,simulated
+MFG_MAA,PORT_INMAA,6.0,1109,Road,Air,1.0,2.2,simulated
+MFG_CCU,PORT_INCCU,5.96,982,Road,Road,0.8,5.0,simulated
+MFG_CCU,PORT_INMAA,5.96,246,Road,Road,0.2,1356.4,simulated

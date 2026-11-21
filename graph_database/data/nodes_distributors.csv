@@ -1,0 +1,11 @@
+id,name,country,country_iso3,lat,lon,geo_source,source
+DIST_CHN_01,China Distribution Centre,China,CHN,31.23,121.47,port_location_proxy,simulated
+DIST_USA_01,United States Distribution Centre,United States,USA,40.68,-74.15,port_location_proxy,simulated
+DIST_JPN_01,Japan Distribution Centre,Japan,JPN,35.62,139.79,port_location_proxy,simulated
+DIST_DEU_01,Germany Distribution Centre,Germany,DEU,53.54,9.97,port_location_proxy,simulated
+DIST_GBR_01,United Kingdom Distribution Centre,United Kingdom,GBR,51.96,1.35,port_location_proxy,simulated
+DIST_FRA_01,France Distribution Centre,France,FRA,49.48,0.11,port_location_proxy,simulated
+DIST_BRA_01,Brazil Distribution Centre,Brazil,BRA,-23.96,-46.3,port_location_proxy,simulated
+DIST_CAN_01,Canada Distribution Centre,Canada,CAN,49.29,-123.11,port_location_proxy,simulated
+DIST_AUS_01,Australia Distribution Centre,Australia,AUS,-27.38,153.17,port_location_proxy,simulated
+DIST_IND_01,India Distribution Centre,India,IND,18.95,72.95,port_location_proxy,simulated
