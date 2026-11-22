@@ -1,4 +1,10 @@
 node_modules/
+<<<<<<< HEAD
 dist/
 .env
+=======
+
+dist/
+.env.local
+>>>>>>> fb10cac (feat(frontend): React D3 dashboard with demo-mode fallback)
 .DS_Store
