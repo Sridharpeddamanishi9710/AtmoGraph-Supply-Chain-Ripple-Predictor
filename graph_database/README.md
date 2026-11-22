@@ -10,7 +10,7 @@ Handoff package for step 1 of the team plan: a Neo4j graph with stable IDs and t
 | Size | Count |
 |---|---|
 | Nodes | 45 (5 suppliers, 5 manufacturers, 13 ports, 10 distributors, 12 disruption events) |
-| Relationships | 109 (25 SUPPLIES_TO, 9 SHIPS_VIA, 50 ROUTE_TO, 13 DELIVERS_TO, 12 HAD_DISRUPTION) |
+| Relationships | 108 (25 SUPPLIES_TO, 9 SHIPS_VIA, 50 ROUTE_TO, 12 DELIVERS_TO, 12 HAD_DISRUPTION) |
 
 ## What is in this folder
 
@@ -36,7 +36,7 @@ Neo4j Desktop also works: copy `data/*.csv` into the database's `import` folder.
 **Step 2: Import.** Open http://localhost:7474, log in, and paste `import.cypher` (run each statement). Or run
 `pip install neo4j pandas` then `python load_graph.py --password atmograph123 --wipe`.
 
-**Step 3: Verify.** The last query in `import.cypher` should return **45 nodes, 109 relationships**. Then run `MATCH (n) RETURN n LIMIT 100` to see the graph.
+**Step 3: Verify.** The last query in `import.cypher` should return **45 nodes, 108 relationships**. Then run `MATCH (n) RETURN n LIMIT 100` to see the graph.
 
 **Step 4: Try the queries** in `queries.cypher`. Sanity checks from an in-memory copy of the same data:
 - Downstream of `PORT_INNSA` within 4 hops: **22 nodes** (12 ports, 10 distributors)
@@ -85,3 +85,6 @@ Traversals are capped at 6 hops, because the route layer contains cycles.
 8. `SupplyGraph` was not among your uploads, so it is not in this graph. It can be added later as Product and Plant nodes.
 
 > Note: raw_inputs/ is not committed (third-party datasets). To rebuild data/, put the three source files in graph_database/raw_inputs/ and run build_graph_data.py. The committed data/ folder is enough to load the graph.
+
+## Change log
+- **v2:** removed the zero-volume `PORT_INNSA -> DIST_IND_01` DELIVERS_TO edge (Nhava Sheva has no inbound routes in the data). DELIVERS_TO `dependency_weight` is now proportional to inbound route volume (India: Mundra 0.2932, Chennai 0.3395, Kolkata 0.3673). Totals are now 108 relationships; `PORT_INNSA` still reaches 22 nodes within 4 hops (`DIST_IND_01` is now 3 hops away instead of 1).

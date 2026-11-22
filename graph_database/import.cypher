@@ -87,5 +87,5 @@ MATCH (a:Port {id: row.start_id}), (b:DisruptionEvent {id: row.end_id})
 MERGE (a)-[r:HAD_DISRUPTION]->(b)
 SET r.source = row.source;
 
-// ---------- 4. Sanity check: expect 45 nodes, 109 relationships ----------
+// ---------- 4. Sanity check: expect 45 nodes, 108 relationships ----------
 MATCH (n) WITH count(n) AS nodes MATCH ()-[r]->() RETURN nodes, count(r) AS relationships;

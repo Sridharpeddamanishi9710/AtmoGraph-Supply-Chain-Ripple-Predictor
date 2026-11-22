@@ -168,11 +168,15 @@ for ctry, pcode in {**GATEWAY, "India": "INNSA"}.items():
     dist_rows.append(dict(id=did, name=f"{ctry} Distribution Centre", country=ctry, country_iso3=iso,
                           lat=p[3], lon=p[4], geo_source="port_location_proxy", source="simulated"))
     plist = INDIA_PORTS if ctry == "India" else [pcode]
-    for c in plist:
-        vol = route.loc[route.end_id == f"PORT_{c}", "volume"].sum()
+    # volume = inbound ROUTE_TO volume at the port; a port with no inbound volume gets NO edge
+    # (fix: PORT_INNSA has no inbound routes, so it previously got volume 0 with weight 0.25)
+    vols = {c: route.loc[route.end_id == f"PORT_{c}", "volume"].sum() for c in plist}
+    vols = {c: v for c, v in vols.items() if v > 0}
+    total = sum(vols.values())
+    for c, vol in vols.items():
         del_rows.append(dict(start_id=f"PORT_{c}", end_id=did, lead_time_days=2 if ctry == "India" else 3,
                              volume=round(vol, 2), transport_mode="Road",
-                             dependency_weight=round(1 / len(plist), 4), source="simulated"))
+                             dependency_weight=round(vol / total, 4), source="simulated"))
 dist = pd.DataFrame(dist_rows)
 deliv = pd.DataFrame(del_rows)
 

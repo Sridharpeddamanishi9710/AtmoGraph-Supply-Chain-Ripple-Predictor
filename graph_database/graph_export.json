@@ -1876,21 +1876,12 @@
     "source": "simulated"
    },
    {
-    "start_id": "PORT_INNSA",
-    "end_id": "DIST_IND_01",
-    "lead_time_days": 2,
-    "volume": 0.0,
-    "transport_mode": "Road",
-    "dependency_weight": 0.25,
-    "source": "simulated"
-   },
-   {
     "start_id": "PORT_INMUN",
     "end_id": "DIST_IND_01",
     "lead_time_days": 2,
     "volume": 18572.22,
     "transport_mode": "Road",
-    "dependency_weight": 0.25,
+    "dependency_weight": 0.2932,
     "source": "simulated"
    },
    {
@@ -1899,7 +1890,7 @@
     "lead_time_days": 2,
     "volume": 21505.04,
     "transport_mode": "Road",
-    "dependency_weight": 0.25,
+    "dependency_weight": 0.3395,
     "source": "simulated"
    },
    {
@@ -1908,7 +1899,7 @@
     "lead_time_days": 2,
     "volume": 23268.33,
     "transport_mode": "Road",
-    "dependency_weight": 0.25,
+    "dependency_weight": 0.3673,
     "source": "simulated"
    }
   ],

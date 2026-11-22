@@ -55,7 +55,7 @@ def main():
             print(f"{rel:16s} {len(rows)} relationships")
         n = s.run("MATCH (n) RETURN count(n) AS c").single()["c"]
         m = s.run("MATCH ()-[r]->() RETURN count(r) AS c").single()["c"]
-        print(f"Graph now has {n} nodes and {m} relationships (expected 45 / 109)")
+        print(f"Graph now has {n} nodes and {m} relationships (expected 45 / 108)")
     driver.close()
 
 

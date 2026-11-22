@@ -5,13 +5,12 @@ label, nodes
 "Supplier", 5
 "Manufacturer", 5
 type, count
-"DELIVERS_TO", 13
+"DELIVERS_TO", 12
 "HAD_DISRUPTION", 12
 "ROUTE_TO", 50
 "SHIPS_VIA", 9
 "SUPPLIES_TO", 25
 id, type, hops
-"DIST_IND_01", "Distributor", 1
 "PORT_CAVAN", "Port", 1
 "PORT_FRLEH", "Port", 1
 "PORT_USNYC", "Port", 1
@@ -26,6 +25,7 @@ id, type, hops
 "DIST_CHN_01", "Distributor", 3
 "DIST_DEU_01", "Distributor", 3
 "DIST_GBR_01", "Distributor", 3
+"DIST_IND_01", "Distributor", 3
 "DIST_JPN_01", "Distributor", 3
 "PORT_AUBNE", "Port", 3
 "PORT_BRSSZ", "Port", 3
