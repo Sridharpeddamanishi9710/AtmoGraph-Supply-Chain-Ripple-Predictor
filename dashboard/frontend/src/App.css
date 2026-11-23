@@ -449,3 +449,180 @@ body, html, #root {
 .pulse {
   animation: pulse-ring 2s infinite;
 }
+
+/* Ripple Simulator Styles */
+.ripple-simulator-card {
+  border-top: 3px solid var(--accent-cyan);
+}
+
+.simulator-header {
+  margin-bottom: 8px;
+}
+
+.step-badge {
+  font-size: 0.72rem;
+  background: rgba(56, 189, 248, 0.2);
+  color: var(--accent-cyan);
+  border: 1px solid var(--accent-cyan);
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+.scenario-selector-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.scenario-dropdown {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-main);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  flex: 1;
+}
+
+.stage-info-box {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 14px;
+}
+
+.stage-title {
+  margin: 0 0 4px 0;
+  font-size: 0.95rem;
+  color: var(--accent-cyan);
+}
+
+.stage-desc {
+  margin: 0 0 8px 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.stage-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+
+.delay-chip {
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+.timeline-track {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+  position: relative;
+}
+
+.timeline-track::before {
+  content: '';
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  right: 10px;
+  height: 2px;
+  background: var(--border-subtle);
+  z-index: 1;
+}
+
+.timeline-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.step-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--bg-card);
+  border: 2px solid var(--border-subtle);
+  color: var(--text-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.timeline-step.completed .step-circle {
+  background: var(--accent-cyan);
+  border-color: var(--accent-cyan);
+  color: #000;
+}
+
+.timeline-step.current .step-circle {
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.8);
+  transform: scale(1.15);
+}
+
+.step-horizon {
+  font-size: 0.68rem;
+  color: var(--text-dim);
+  margin-top: 4px;
+}
+
+.timeline-step.current .step-horizon {
+  color: var(--accent-cyan);
+  font-weight: bold;
+}
+
+.simulator-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.btn-play {
+  background: linear-gradient(135deg, #059669, #10b981);
+}
+
+.btn-pause {
+  background: linear-gradient(135deg, #d97706, #f59e0b);
+}
+
+.speed-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.speed-btn {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-muted);
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+.speed-btn.active {
+  background: var(--accent-cyan);
+  color: #000;
+  font-weight: bold;
+}
