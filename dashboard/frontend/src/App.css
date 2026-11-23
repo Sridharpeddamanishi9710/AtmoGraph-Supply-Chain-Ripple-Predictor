@@ -783,3 +783,145 @@ body, html, #root {
   color: #fca5a5;
   border: 1px solid #ef4444;
 }
+
+/* Analytics Panel Styles */
+.analytics-card {
+  border-top: 3px solid var(--accent-indigo);
+}
+
+.analytics-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.analytics-sub {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  margin: 4px 0 0 0;
+}
+
+.export-btn-group {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-export {
+  font-size: 0.8rem;
+  padding: 6px 14px;
+}
+
+.analytics-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 900px) {
+  .analytics-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.bottlenecks-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  margin-top: 8px;
+}
+
+.bottlenecks-table th, .bottlenecks-table td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.bottlenecks-table th {
+  color: var(--text-dim);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.node-id-tag {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  margin-left: 4px;
+}
+
+.type-tag {
+  background: rgba(56, 189, 248, 0.15);
+  color: var(--accent-cyan);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+}
+
+.vuln-tag {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.vuln-crit {
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+}
+
+.vuln-med {
+  background: rgba(245, 158, 11, 0.2);
+  color: #f59e0b;
+}
+
+.delay-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.bar-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.bar-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.bar-container {
+  background: var(--bg-secondary);
+  border-radius: 6px;
+  height: 24px;
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+}
+
+.bar-fill {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  font-size: 0.72rem;
+  font-weight: bold;
+  color: #fff;
+  transition: width 0.4s ease;
+}
+
+.bar-nominal {
+  background: var(--accent-emerald);
+}
+
+.bar-disrupted {
+  background: var(--danger);
+}
+
+.bar-mitigated {
+  background: var(--accent-cyan);
+  color: #000;
+}

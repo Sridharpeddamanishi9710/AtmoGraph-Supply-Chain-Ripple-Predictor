@@ -4,6 +4,7 @@ import NetworkFilterBar from './components/NetworkFilterBar';
 import SupplyChainGraph from './components/SupplyChainGraph';
 import RippleSimulator from './components/RippleSimulator';
 import MitigationPlanner from './components/MitigationPlanner';
+import AnalyticsPanel from './components/AnalyticsPanel';
 import NodeDetails from './components/NodeDetails';
 import RiskLegend from './components/RiskLegend';
 import DisruptionInput from './components/DisruptionInput';
@@ -85,6 +86,12 @@ export default function App() {
           🛡️ Contingency & Rerouting
         </button>
         <button
+          className={`tab-btn ${activeTab === 'analytics' ? 'active' : ''}`}
+          onClick={() => setActiveTab('analytics')}
+        >
+          📊 Risk Analytics & Export
+        </button>
+        <button
           className={`tab-btn ${activeTab === 'input' ? 'active' : ''}`}
           onClick={() => setActiveTab('input')}
         >
@@ -141,6 +148,17 @@ export default function App() {
               onApplyMitigation={handleApplyMitigation}
               isApplied={isMitigationApplied}
               appliedStrategyId={appliedStrategyId}
+            />
+          )}
+
+          {activeTab === 'analytics' && (
+            <AnalyticsPanel
+              graph={mockGraph}
+              currentDisruption={currentDisruption}
+              activeRippleStage={activeRippleStage}
+              predictionsById={predictionsById}
+              isMitigationApplied={isMitigationApplied}
+              appliedStrategy={null}
             />
           )}
 
