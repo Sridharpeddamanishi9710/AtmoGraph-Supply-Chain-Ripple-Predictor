@@ -1,16 +1,39 @@
-# React + Vite
+# AtmoGraph Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+AtmoGraph is a React dashboard for exploring a sample supply-chain network, viewing disruption risk, simulating ripple effects, and comparing mitigation strategies.
 
-Currently, two official plugins are available:
+## Requirements
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Node.js 20.19+ or 22.12+
+- npm
 
-## React Compiler
+## Run locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+From the repository root:
 
-## Expanding the Oxlint configuration
+```sh
+cd dashboard/frontend
+npm ci
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Vite prints the local URL after startup.
+
+## Verify changes
+
+```sh
+npm test
+npm run build
+```
+
+## Data and API configuration
+
+The dashboard ships with synthetic network data and canned predictions. Treat all displayed risks, delays, events, and mitigation outcomes as illustrative rather than operational forecasts.
+
+The API client uses `http://localhost:8000` by default. To point it at another API, create a `.env.local` file in `dashboard/frontend` and set:
+
+```sh
+VITE_API_BASE_URL=https://your-api-host
+```
+
+The supported routes and fallback behavior are implemented in `src/api/client.js`. When a request is unavailable or returns an unsuccessful response, the client uses bundled demo data.
