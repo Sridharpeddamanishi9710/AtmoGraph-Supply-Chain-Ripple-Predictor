@@ -1,0 +1,70 @@
+Event,port_name,Country,Year,Date,reduction,shutdown,recovery,total_affected_days,severity
+Hurricane Irene,Port of New York and New Jersey,U.S.A.,2011,2019-08-27,2,1,3,6,3
+Hurricane Irene,Port Baltimore,U.S.A.,2011,2019-08-27,2,0,2,4,3
+Hurricane Irene,Port Hampton Roads,U.S.A.,2011,2019-08-27,2,1,2,5,3
+Hurricane Irene,Port Morehead City,U.S.A.,2011,2019-08-27,0,3,1,4,3
+Mississippi floods,Port Baton Rouge,U.S.A.,2011,0001-03-01,3,11,19,33,3
+Hurricane Sandy,Port of New York and New Jersey,U.S.A.,2012,2019-10-29,1,5,3,9,3
+Hurricane Sandy,Port Hampton Roads,U.S.A.,2012,2019-10-29,3,1,2,6,3
+Tropical Cyclone Narelle,Port Dampier,Australia,2013,2019-01-12,2,2,2,6,3
+Tropical Cyclone Narelle,Port Walcott,Australia,2013,2019-01-12,1,3,1,5,3
+Tropical Cyclone Oswald,Port Mackay,Australia,2013,2019-01-20,5,0,2,7,3
+Tropical Cyclone Peta,Port of Port Hedland,Australia,2013,2019-01-23,3,0,2,5,3
+Tropical Cyclone Peta,Port Walcott,Australia,2013,2019-01-23,3,1,2,6,3
+Tropical Cyclone Rusty,Port of Dampier,Australia,2013,2019-02-27,3,2,1,6,3
+Tropical Cyclone Rusty,Port of Port Hedland,Australia,2013,2019-02-27,2,3,2,7,3
+Tropical Cyclone Rusty,Port Walcott,Australia,2013,2019-02-27,1,3,1,5,3
+Tropical Cyclone Christine,Port Dampier,Australia,2014,2019-01-01,4,1,2,7,3
+Tropical Cyclone Christine,Port of Port Hedland,Australia,2014,2019-01-01,2,2,4,8,3
+Tropical Cyclone Christine,Port Walcott,Australia,2014,2019-01-01,0,7,2,9,3
+Tropical Cyclone Marcia,Port Townsville,Australia,2015,2019-02-20,0,5,1,6,3
+Tropical Cyclone Nathan,Port Hay Point,Australia,2015,2019-03-20,4,0,2,6,3
+Tropical Cyclone Nathan,Port Brisbane,Australia,2015,2019-03-20,2,1,2,5,3
+Tropical Cyclone Nathan,Port Gladstone,Australia,2015,2019-03-20,1,1,3,5,3
+Tropical Cyclone Nathan,Port Townsville,Australia,2015,2019-03-20,0,2,2,4,3
+Tropical Cyclone Olwyn,Port Dampier,Australia,2015,2019-03-13,3,1,1,5,3
+Tropical Cyclone Olwyn,Port Geraldton,Australia,2015,2019-03-13,0,2,2,4,3
+Tropical Cyclone Quang,Port Walcott,Australia,2015,2019-05-01,2,1,2,5,3
+Hurricane Matthew,Port of Jacksonville,U.S.A.,2016,2019-10-08,6,0,2,8,3
+Hurricane Matthew,Port of Savannah,U.S.A.,2016,2019-10-08,1,4,2,7,3
+Hurricane Matthew,Port of Charleston,U.S.A.,2016,2019-10-08,2,2,3,7,3
+Hurricane Matthew,Port Everglades,U.S.A.,2016,2019-10-08,2,1,1,4,3
+Hurricane Matthew,Port of Miami,U.S.A.,2016,2019-10-08,0,1,1,2,3
+Hurricane Matthew,Port Palm Beach,U.S.A.,2016,2019-10-08,1,2,1,4,3
+Hurricane Matthew,Port Canaveral,U.S.A.,2016,2019-10-08,4,2,2,8,3
+Hurricane Harvey,Port of Houston,U.S.A.,2017,2019-08-25,1,4,6,11,3
+Hurricane Harvey,Port of Corpus Christi,U.S.A.,2017,2019-08-25,3,7,4,14,3
+Hurricane Harvey,Calhoun Port Authority,U.S.A.,2017,2019-08-25,1,9,2,12,3
+Hurricane Harvey,Port Arthur and Port Beaumont,U.S.A.,2017,2019-08-25,4,8,6,18,3
+Hurricane Harvey,Freeport,U.S.A.,2017,2019-08-25,2,6,2,10,3
+Hurricane Irma,Port Everglades,U.S.A.,2017,2019-09-10,2,3,2,7,3
+Hurricane Irma,Port Miami,U.S.A.,2017,2019-09-10,1,4,2,7,3
+Hurricane Irma,Port Palm Beach,U.S.A.,2017,2019-09-10,1,4,1,6,3
+Hurricane Irma,Port Canaveral,U.S.A.,2017,2019-09-10,2,4,3,9,3
+Hurricane Irma,Port of Charleston,U.S.A.,2017,2019-09-10,2,1,3,6,3
+Hurricane Irma,Port of Savannah,U.S.A.,2017,2019-09-10,2,3,1,6,3
+Hurricane Irma,Port of Jacksonville,U.S.A.,2017,2019-09-10,1,3,1,5,3
+Hurricane Irma,Port Tampa,U.S.A.,2017,2019-09-10,1,2,1,4,3
+Tropical Cyclone Debbie,Port Hay Point,Australia,2017,2019-03-28,2,3,40,45,3
+Tropical Cyclone Debbie,Port Townsville,Australia,2017,2019-03-28,2,3,1,6,3
+Hurricane Dorian,Freeport,Bahamas,2019,2019-09-01,1,4,16,21,3
+Hurricane Dorian,Port of Jacksonville,U.S.A.,2019,2019-09-01,3,3,2,8,3
+Hurricane Dorian,Port of Savannah,U.S.A.,2019,2019-09-01,3,3,3,9,3
+Hurricane Dorian,Port Everglades,U.S.A.,2019,2019-09-01,3,2,1,6,3
+Hurricane Dorian,Port of Miami,U.S.A.,2019,2019-09-01,1,2,2,5,3
+Hurricane Dorian,Port Palm Beach,U.S.A.,2019,2019-09-01,0,4,2,6,3
+Hurricane Idai,Beira,Mozambique,2019,2019-03-15,12,0,4,16,3
+Queensland floods,Port Townsville,Australia,2019,0001-02-01,9,0,2,11,3
+Queensland floods,Port Abbot Point,Australia,2019,0001-02-01,1,8,4,13,3
+Tropical Cyclone Veronica,Port Dampier,Australia,2019,2019-03-22,4,4,3,11,3
+Tropical Cyclone Veronica,Port of Port Hedland,Australia,2019,2019-03-22,2,3,5,10,3
+Tropical Cyclone Veronica,Port Walcott,Australia,2019,2019-03-22,2,7,7,16,3
+Typhoon Hagibis,Tokyo area,Japan,2019,2019-10-07,3,1,3,7,3
+Typhoon Hagibis,Yorkaichi,Japan,2019,2019-10-07,5,0,3,8,3
+Typhoon Hagibis,Wakatama-Shimotsu,Japan,2019,2019-10-07,5,0,1,6,3
+Typhoon Hagibis,Sendai,Japan,2019,2019-10-07,2,2,2,6,3
+Typhoon Lekima,Haimen,China,2019,2019-08-09,4,1,3,8,3
+Typhoon Lekima,Tan-shui,Taiwan,2019,2019-08-09,3,0,3,6,3
+Typhoon Lekima,Zhapu,China,2019,2019-08-09,1,3,2,6,3
+Typhoon Lekima,Fuzhou,China,2019,2019-08-09,2,0,1,3,3
+Typhoon Mitag,Tan-shui,Taiwan,2019,2019-09-30,3,0,3,6,3
