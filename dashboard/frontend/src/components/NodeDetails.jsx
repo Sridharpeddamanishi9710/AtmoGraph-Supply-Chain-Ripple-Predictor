@@ -1,4 +1,6 @@
 import React from 'react';
+import mockGraph from '../data/mockGraph.json';
+import { getNodeRoutes } from '../data/nodeRoutes';
 
 export default function NodeDetails({ node, disruption, prediction }) {
   if (!node) {
@@ -26,6 +28,7 @@ export default function NodeDetails({ node, disruption, prediction }) {
     backgroundColor: typeColorMap[node.node_type] || '#64748b',
     marginLeft: '8px'
   };
+  const { incoming, outgoing } = getNodeRoutes(mockGraph, node.node_id);
 
   return (
     <div className="card">
@@ -42,6 +45,43 @@ export default function NodeDetails({ node, disruption, prediction }) {
               <li key={k}>{k}: {v?.toString()}</li>
             ))}
           </ul>
+        )}
+      </section>
+      <section>
+        <h4>Supply routes</h4>
+        {incoming.length === 0 && outgoing.length === 0 ? (
+          <p>No connected lanes</p>
+        ) : (
+          <>
+            {incoming.length > 0 && (
+              <>
+                <h5>Inbound</h5>
+                <ul>
+                  {incoming.map((route) => (
+                    <li key={`in-${route.source_id}-${route.target_id}`}>
+                      From {route.connectedNodeName} ({route.relationship_type})
+                      {' | '}{route.lead_time_days} days
+                      {' | '}{Math.round(route.reliability * 100)}% reliability
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+            {outgoing.length > 0 && (
+              <>
+                <h5>Outbound</h5>
+                <ul>
+                  {outgoing.map((route) => (
+                    <li key={`out-${route.source_id}-${route.target_id}`}>
+                      To {route.connectedNodeName} ({route.relationship_type})
+                      {' | '}{route.lead_time_days} days
+                      {' | '}{Math.round(route.reliability * 100)}% reliability
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+          </>
         )}
       </section>
       {disruption && (
