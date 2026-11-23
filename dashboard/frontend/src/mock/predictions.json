@@ -1,18 +1,12 @@
 [
-  {
-    "node_id": "PORT-003",
-    "risk_score": 0.87,
-    "risk_class": "high",
-    "estimated_delay_days": 5,
-    "horizon_days": 30,
-    "model_version": "mock-v0"
-  },
-  {
-    "node_id": "DIS-001",
-    "risk_score": 0.65,
-    "risk_class": "medium",
-    "estimated_delay_days": 3,
-    "horizon_days": 30,
-    "model_version": "mock-v0"
-  }
+  { "node_id": "PORT-003", "risk_score": 0.88, "risk_class": "high", "estimated_delay_days": 12, "horizon_days: ": 30, "model_version": "gnn-v1.2-atmo" },
+  { "node_id": "MFG-003",  "risk_score": 0.74, "risk_class": "high", "estimated_delay_days": 9, "horizon_days": 30, "model_version": "gnn-v1.2-atmo" },
+  { "node_id": "DIST-003", "risk_score": 0.58, "risk_class": "medium", "estimated_delay_days": 6, "horizon_days": 30, "model_version": "gnn-v1.2-atmo" },
+  { "node_id": "SUP-003",  "risk_score": 0.45, "risk_class": "medium", "estimated_delay_days": 4, "horizon_days": 30, "model_version": "gnn-v1.2-atmo" },
+  { "node_id": "MFG-001",  "risk_score": 0.32, "risk_class": "low", "estimated_delay_days": 2, "horizon_days": 30, "model_version": "gnn-v1.2-atmo" },
+  { "node_id": "DIST-001", "risk_score": 0.28, "risk_class": "low", "estimated_delay_days": 1, "horizon_days": 30, "model_version": "gnn-v1.2-atmo" },
+  { "node_id": "SUP-001",  "risk_score": 0.22, "risk_class": "low", "estimated_delay_days": 1, "horizon_days": 30, "model_version": "gnn-v1.2-atmo" },
+  { "node_id": "PORT-001", "risk_score": 0.18, "risk_class": "low", "estimated_delay_days": 1, "horizon_days": 30, "model_version": "gnn-v1.2-atmo" },
+  { "node_id": "MFG-002",  "risk_score": 0.20, "risk_class": "low", "estimated_delay_days": 1, "horizon_days": 30, "model_version": "gnn-v1.2-atmo" },
+  { "node_id": "DIST-002", "risk_score": 0.15, "risk_class": "low", "estimated_delay_days": 0, "horizon_days": 30, "model_version": "gnn-v1.2-atmo" }
 ]

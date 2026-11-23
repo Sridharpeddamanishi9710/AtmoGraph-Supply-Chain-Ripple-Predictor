@@ -1,44 +1,193 @@
 {
   "nodes": [
-    { "node_id": "SUP-001", "node_type": "Supplier", "name": "Supplier 1 (Mumbai)", "country": "India", "attributes": {} },
-    { "node_id": "SUP-002", "node_type": "Supplier", "name": "Supplier 2 (Delhi)", "country": "India", "attributes": {} },
-    { "node_id": "SUP-003", "node_type": "Supplier", "name": "Supplier 3 (Bangalore)", "country": "India", "attributes": {} },
-    { "node_id": "SUP-004", "node_type": "Supplier", "name": "Supplier 4 (Kolkata)", "country": "India", "attributes": {} },
-    { "node_id": "SUP-005", "node_type": "Supplier", "name": "Supplier 5 (Chennai)", "country": "India", "attributes": {} },
-    { "node_id": "MFG-001", "node_type": "Manufacturer", "name": "Manufacturer A", "country": "Germany", "attributes": {} },
-    { "node_id": "MFG-002", "node_type": "Manufacturer", "name": "Manufacturer B", "country": "USA", "attributes": {} },
-    { "node_id": "MFG-003", "node_type": "Manufacturer", "name": "Manufacturer C", "country": "China", "attributes": {} },
-    { "node_id": "PORT-001", "node_type": "Port", "name": "Port 1 (Mumbai)", "country": "India", "attributes": {} },
-    { "node_id": "PORT-002", "node_type": "Port", "name": "Port 2 (Chennai)", "country": "India", "attributes": {} },
-    { "node_id": "PORT-003", "node_type": "Port", "name": "Port 3 (Rotterdam)", "country": "Netherlands", "attributes": { "is_disrupted": true } },
-    { "node_id": "PORT-004", "node_type": "Port", "name": "Port 4 (Singapore)", "country": "Singapore", "attributes": {} },
-    { "node_id": "DIST-001", "node_type": "Distributor", "name": "Distributor X", "country": "France", "attributes": {} },
-    { "node_id": "DIST-002", "node_type": "Distributor", "name": "Distributor Y", "country": "UK", "attributes": {} },
-    { "node_id": "DIST-003", "node_type": "Distributor", "name": "Distributor Z", "country": "Canada", "attributes": {} },
-    { "node_id": "PROD-001", "node_type": "Product", "name": "Product Alpha", "country": "", "attributes": {} },
-    { "node_id": "PROD-002", "node_type": "Product", "name": "Product Beta", "country": "", "attributes": {} },
-    { "node_id": "PROD-003", "node_type": "Product", "name": "Product Gamma", "country": "", "attributes": {} },
-    { "node_id": "PROD-004", "node_type": "Product", "name": "Product Delta", "country": "", "attributes": {} },
-    { "node_id": "PROD-005", "node_type": "Product", "name": "Product Epsilon", "country": "", "attributes": {} }
+    {
+      "node_id": "SUP-001",
+      "node_type": "Supplier",
+      "name": "Apex Micro-Silicon",
+      "country": "India",
+      "city": "Mumbai",
+      "attributes": {
+        "tier": 1,
+        "criticality": "high",
+        "inventory_buffer_days": 14,
+        "daily_capacity_units": 8500
+      }
+    },
+    {
+      "node_id": "SUP-002",
+      "node_type": "Supplier",
+      "name": "Bharat Precision Foundry",
+      "country": "India",
+      "city": "Delhi NCR",
+      "attributes": {
+        "tier": 2,
+        "criticality": "medium",
+        "inventory_buffer_days": 21,
+        "daily_capacity_units": 12000
+      }
+    },
+    {
+      "node_id": "SUP-003",
+      "node_type": "Supplier",
+      "name": "Deccan Sensor Labs",
+      "country": "India",
+      "city": "Bangalore",
+      "attributes": {
+        "tier": 1,
+        "criticality": "high",
+        "inventory_buffer_days": 7,
+        "daily_capacity_units": 4500
+      }
+    },
+    {
+      "node_id": "SUP-004",
+      "node_type": "Supplier",
+      "name": "Eastern Polymer Works",
+      "country": "India",
+      "city": "Kolkata",
+      "attributes": {
+        "tier": 2,
+        "criticality": "low",
+        "inventory_buffer_days": 30,
+        "daily_capacity_units": 15000
+      }
+    },
+    {
+      "node_id": "PORT-001",
+      "node_type": "Port",
+      "name": "Jawaharlal Nehru Port (JNPT)",
+      "country": "India",
+      "city": "Navi Mumbai",
+      "attributes": {
+        "teu_capacity_per_day": 14500,
+        "avg_dwell_time_days": 3.2,
+        "is_disrupted": false
+      }
+    },
+    {
+      "node_id": "PORT-002",
+      "node_type": "Port",
+      "name": "Chennai Container Terminal",
+      "country": "India",
+      "city": "Chennai",
+      "attributes": {
+        "teu_capacity_per_day": 9200,
+        "avg_dwell_time_days": 2.8,
+        "is_disrupted": false
+      }
+    },
+    {
+      "node_id": "PORT-003",
+      "node_type": "Port",
+      "name": "Port of Rotterdam Hub",
+      "country": "Netherlands",
+      "city": "Rotterdam",
+      "attributes": {
+        "teu_capacity_per_day": 28000,
+        "avg_dwell_time_days": 8.5,
+        "is_disrupted": true,
+        "disruption_cause": "Port labor strike & yard congestion"
+      }
+    },
+    {
+      "node_id": "PORT-004",
+      "node_type": "Port",
+      "name": "Port of Singapore Transshipment",
+      "country": "Singapore",
+      "city": "Singapore",
+      "attributes": {
+        "teu_capacity_per_day": 34000,
+        "avg_dwell_time_days": 2.1,
+        "is_disrupted": false
+      }
+    },
+    {
+      "node_id": "MFG-001",
+      "node_type": "Manufacturer",
+      "name": "Bavaria Auto Assembly GmbH",
+      "country": "Germany",
+      "city": "Munich",
+      "attributes": {
+        "daily_run_rate": 620,
+        "buffer_stock_days": 4,
+        "critical_input_supplier": "SUP-001"
+      }
+    },
+    {
+      "node_id": "MFG-002",
+      "node_type": "Manufacturer",
+      "name": "Midwest Robotics Mfg",
+      "country": "USA",
+      "city": "Detroit",
+      "attributes": {
+        "daily_run_rate": 450,
+        "buffer_stock_days": 12,
+        "critical_input_supplier": "SUP-002"
+      }
+    },
+    {
+      "node_id": "MFG-003",
+      "node_type": "Manufacturer",
+      "name": "Sino-Euro Advanced Hardware",
+      "country": "Germany",
+      "city": "Dusseldorf",
+      "attributes": {
+        "daily_run_rate": 890,
+        "buffer_stock_days": 3,
+        "critical_input_supplier": "SUP-003",
+        "affected_by_port": "PORT-003"
+      }
+    },
+    {
+      "node_id": "DIST-001",
+      "node_type": "Distributor",
+      "name": "Continental Freight Logistics",
+      "country": "France",
+      "city": "Paris",
+      "attributes": {
+        "fulfillment_center_sqm": 85000,
+        "service_level_target_pct": 98.5
+      }
+    },
+    {
+      "node_id": "DIST-002",
+      "node_type": "Distributor",
+      "name": "Trans-Atlantic Prime Distribution",
+      "country": "USA",
+      "city": "Chicago",
+      "attributes": {
+        "fulfillment_center_sqm": 120000,
+        "service_level_target_pct": 99.1
+      }
+    },
+    {
+      "node_id": "DIST-003",
+      "node_type": "Distributor",
+      "name": "Nordic Direct Fulfillment Hub",
+      "country": "Sweden",
+      "city": "Gothenburg",
+      "attributes": {
+        "fulfillment_center_sqm": 64000,
+        "service_level_target_pct": 97.2
+      }
+    }
   ],
   "edges": [
-    { "source_id": "SUP-001", "target_id": "PORT-001", "relationship_type": "SHIPS_TO", "lead_time_days": 6, "capacity": 500 },
-    { "source_id": "SUP-002", "target_id": "PORT-002", "relationship_type": "SHIPS_TO", "lead_time_days": 8, "capacity": 600 },
-    { "source_id": "SUP-003", "target_id": "PORT-003", "relationship_type": "SHIPS_TO", "lead_time_days": 12, "capacity": 700 },
-    { "source_id": "SUP-004", "target_id": "PORT-004", "relationship_type": "SHIPS_TO", "lead_time_days": 10, "capacity": 550 },
-    { "source_id": "SUP-005", "target_id": "PORT-001", "relationship_type": "SHIPS_TO", "lead_time_days": 7, "capacity": 450 },
-    { "source_id": "PORT-001", "target_id": "MFG-001", "relationship_type": "SHIPS_TO", "lead_time_days": 5, "capacity": 400 },
-    { "source_id": "PORT-002", "target_id": "MFG-002", "relationship_type": "SHIPS_TO", "lead_time_days": 5, "capacity": 400 },
-    { "source_id": "PORT-003", "target_id": "MFG-003", "relationship_type": "SHIPS_TO", "lead_time_days": 5, "capacity": 400 },
-    { "source_id": "PORT-004", "target_id": "MFG-001", "relationship_type": "SHIPS_TO", "lead_time_days": 6, "capacity": 350 },
-    { "source_id": "MFG-001", "target_id": "DIST-001", "relationship_type": "DISTRIBUTES_VIA", "lead_time_days": 4, "capacity": 300 },
-    { "source_id": "MFG-002", "target_id": "DIST-002", "relationship_type": "DISTRIBUTES_VIA", "lead_time_days": 4, "capacity": 300 },
-    { "source_id": "MFG-003", "target_id": "DIST-003", "relationship_type": "DISTRIBUTES_VIA", "lead_time_days": 4, "capacity": 300 },
-    { "source_id": "PROD-001", "target_id": "SUP-001", "relationship_type": "PRODUCES", "lead_time_days": 0, "capacity": 100 },
-    { "source_id": "PROD-002", "target_id": "SUP-002", "relationship_type": "PRODUCES", "lead_time_days": 0, "capacity": 100 },
-    { "source_id": "PROD-003", "target_id": "SUP-003", "relationship_type": "PRODUCES", "lead_time_days": 0, "capacity": 100 },
-    { "source_id": "PROD-004", "target_id": "SUP-004", "relationship_type": "PRODUCES", "lead_time_days": 0, "capacity": 100 },
-    { "source_id": "PROD-005", "target_id": "SUP-005", "relationship_type": "PRODUCES", "lead_time_days": 0, "capacity": 100 }
+    { "source_id": "SUP-001", "target_id": "PORT-001", "relationship_type": "INTERMODAL_RAIL", "lead_time_days": 3, "capacity": 500, "reliability": 0.94 },
+    { "source_id": "SUP-002", "target_id": "PORT-002", "relationship_type": "HIGHWAY_HAUL", "lead_time_days": 4, "capacity": 600, "reliability": 0.91 },
+    { "source_id": "SUP-003", "target_id": "PORT-003", "relationship_type": "OCEAN_CARRIER", "lead_time_days": 16, "capacity": 700, "reliability": 0.62 },
+    { "source_id": "SUP-004", "target_id": "PORT-004", "relationship_type": "OCEAN_CARRIER", "lead_time_days": 9, "capacity": 550, "reliability": 0.96 },
+    { "source_id": "PORT-001", "target_id": "MFG-001", "relationship_type": "MARITIME_LANE", "lead_time_days": 18, "capacity": 400, "reliability": 0.92 },
+    { "source_id": "PORT-002", "target_id": "MFG-002", "relationship_type": "MARITIME_LANE", "lead_time_days": 22, "capacity": 400, "reliability": 0.88 },
+    { "source_id": "PORT-003", "target_id": "MFG-003", "relationship_type": "INLAND_BARGE", "lead_time_days": 3, "capacity": 400, "reliability": 0.35 },
+    { "source_id": "PORT-004", "target_id": "MFG-001", "relationship_type": "AIR_EXPEDITE", "lead_time_days": 4, "capacity": 150, "reliability": 0.98 },
+    { "source_id": "MFG-001", "target_id": "DIST-001", "relationship_type": "ROAD_EXPRESS", "lead_time_days": 2, "capacity": 300, "reliability": 0.97 },
+    { "source_id": "MFG-002", "target_id": "DIST-002", "relationship_type": "INTERSTATE_TRUCK", "lead_time_days": 3, "capacity": 300, "reliability": 0.95 },
+    { "source_id": "MFG-003", "target_id": "DIST-003", "relationship_type": "EU_CORRIDOR", "lead_time_days": 4, "capacity": 300, "reliability": 0.72 }
   ],
-  "_meta": { "data_source": "SIMULATED", "note": "Hand-crafted demonstration data — not real-world" }
+  "_meta": {
+    "network_name": "AtmoGraph Global Tier-1/2 High-Tech Supply Chain Topology",
+    "version": "2.0.0",
+    "last_synced": "2026-11-23T22:30:00Z"
+  }
 }

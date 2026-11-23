@@ -1,26 +1,16 @@
 [
-  {
-    "node_id": "SUP-001",
-    "node_type": "supplier",
-    "name": "Supplier A",
-    "country": "China"
-  },
-  {
-    "node_id": "MFG-001",
-    "node_type": "manufacturer",
-    "name": "Factory B",
-    "country": "Vietnam"
-  },
-  {
-    "node_id": "PORT-003",
-    "node_type": "port",
-    "name": "Port C",
-    "country": "Europe"
-  },
-  {
-    "node_id": "DIS-001",
-    "node_type": "distributor",
-    "name": "Distributor D",
-    "country": "Germany"
-  }
+  { "node_id": "SUP-001", "name": "Apex Micro-Silicon", "node_type": "Supplier", "country": "India" },
+  { "node_id": "SUP-002", "name": "Bharat Precision Foundry", "node_type": "Supplier", "country": "India" },
+  { "node_id": "SUP-003", "name": "Deccan Sensor Labs", "node_type": "Supplier", "country": "India" },
+  { "node_id": "SUP-004", "name": "Eastern Polymer Works", "node_type": "Supplier", "country": "India" },
+  { "node_id": "PORT-001", "name": "JNPT Port Mumbai", "node_type": "Port", "country": "India" },
+  { "node_id": "PORT-002", "name": "Chennai Container Port", "node_type": "Port", "country": "India" },
+  { "node_id": "PORT-003", "name": "Port of Rotterdam", "node_type": "Port", "country": "Netherlands" },
+  { "node_id": "PORT-004", "name": "Port of Singapore", "node_type": "Port", "country": "Singapore" },
+  { "node_id": "MFG-001", "name": "Bavaria Auto Assembly", "node_type": "Manufacturer", "country": "Germany" },
+  { "node_id": "MFG-002", "name": "Midwest Robotics Mfg", "node_type": "Manufacturer", "country": "USA" },
+  { "node_id": "MFG-003", "name": "Sino-Euro Hardware", "node_type": "Manufacturer", "country": "Germany" },
+  { "node_id": "DIST-001", "name": "Continental Freight Logistics", "node_type": "Distributor", "country": "France" },
+  { "node_id": "DIST-002", "name": "Trans-Atlantic Prime Distribution", "node_type": "Distributor", "country": "USA" },
+  { "node_id": "DIST-003", "name": "Nordic Fulfillment Hub", "node_type": "Distributor", "country": "Sweden" }
 ]
