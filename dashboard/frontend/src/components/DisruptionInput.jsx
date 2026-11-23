@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { extractDisruption, attachDisruption } from '../api/client';
+import DisruptionPreview from './DisruptionPreview';
 
 export default function DisruptionInput({ onExtracted, onAttached }) {
   const [text, setText] = useState('A major port strike has halted operations at Port C in Europe. Shipping delays are expected to affect downstream manufacturers across the region.');
@@ -33,8 +34,6 @@ export default function DisruptionInput({ onExtracted, onAttached }) {
     setLoading(false);
   };
 
-  const highlightedJson = event ? JSON.stringify(event, null, 2).replace(/"matched_node_id":\s*"[^"]+"/, match => `<mark style=\"background:#ef4444;color:#fff;padding:2px 4px\">${match}\</mark>` ) : '';
-
   return (
     <div className="card">
       <h3>Disruption Input</h3>
@@ -48,7 +47,7 @@ export default function DisruptionInput({ onExtracted, onAttached }) {
         {loading ? 'Extracting…' : 'Extract Disruption'}
       </button>
       {event && (
-        <pre className="json-block" dangerouslySetInnerHTML={{ __html: highlightedJson }} />
+        <DisruptionPreview event={event} />
       )}
       <button onClick={handleAttach} disabled={loading || !event} className="btn" style={{ marginTop: '8px' }}>
         {loading ? 'Attaching…' : 'Attach to Graph'}
