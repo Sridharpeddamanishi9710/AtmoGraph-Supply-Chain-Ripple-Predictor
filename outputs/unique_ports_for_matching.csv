@@ -20,7 +20,7 @@ Hong Kong,China,,pending
 Ningbo,China,,pending
 Qingdao Gang,China,,pending
 Quanzhou,China,,pending
-Shanghai,China,,pending
+Shanghai,China,PORT_CNSHA,matched
 Tianjin,China,,pending
 Wenzhou,China,,pending
 Xiamen,China,,pending
@@ -90,5 +90,5 @@ Port of Corpus Christi,U.S.A.,,pending
 Port of Houston,U.S.A.,,pending
 Port of Jacksonville,U.S.A.,,pending
 Port of Miami,U.S.A.,,pending
-Port of New York and New Jersey,U.S.A.,,pending
+Port of New York and New Jersey,U.S.A.,PORT_USNYC,matched
 Port of Savannah,U.S.A.,,pending
