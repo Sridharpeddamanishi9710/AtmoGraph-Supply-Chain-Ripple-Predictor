@@ -1,0 +1,208 @@
+Event,port_name,Country,Year,Date,reduction,shutdown,recovery,total_affected_days,severity,matched_node_id,matching_status
+Hurricane Irene,Port of Boston,U.S.A.,2011,2019-08-27,4,0,3,7,2,,unmatched
+Hurricane Irene,Delaware area,U.S.A.,2011,2019-08-27,3,1,1,5,2,,unmatched
+Hurricane Irene,Port Baltimore,U.S.A.,2011,2019-08-27,2,0,2,4,3,,unmatched
+Hurricane Irene,Port Hampton Roads,U.S.A.,2011,2019-08-27,2,1,2,5,3,,unmatched
+Hurricane Irene,Port of Charleston,U.S.A.,2011,2019-08-27,3,0,4,7,2,,unmatched
+Hurricane Irene,Port of Savannah,U.S.A.,2011,2019-08-27,4,0,3,7,1,,unmatched
+Hurricane Irene,Port Morehead City,U.S.A.,2011,2019-08-27,0,3,1,4,3,,unmatched
+Mississippi floods,Port of Houston,U.S.A.,2011,0001-03-01,0,0,0,0,0,,unmatched
+Mississippi floods,Port Arthur and Port Beaumont,U.S.A.,2011,0001-03-01,0,0,0,0,0,,unmatched
+Mississippi floods,Port New Orleans,U.S.A.,2011,0001-03-01,6,0,1,7,1,,unmatched
+Mississippi floods,Port Mobile,U.S.A.,2011,0001-03-01,0,0,0,0,0,,unmatched
+Mississippi floods,Port South Louisiana,U.S.A.,2011,0001-03-01,8,0,22,30,1,,unmatched
+Mississippi floods,Port Baton Rouge,U.S.A.,2011,0001-03-01,3,11,19,33,3,,unmatched
+Hurricane Sandy,Port of Boston,U.S.A.,2012,2019-10-29,2,0,1,3,1,,unmatched
+Hurricane Sandy,Delaware area,U.S.A.,2012,2019-10-29,3,0,3,6,1,,unmatched
+Hurricane Sandy,Port Baltimore,U.S.A.,2012,2019-10-29,3,0,3,6,2,,unmatched
+Hurricane Sandy,Port Hampton Roads,U.S.A.,2012,2019-10-29,3,1,2,6,3,,unmatched
+Hurricane Sandy,Port of Charleston,U.S.A.,2012,2019-10-29,4,0,2,6,2,,unmatched
+Hurricane Sandy,Port of Savannah,U.S.A.,2012,2019-10-29,2,0,6,8,2,,unmatched
+Hurricane Sandy,Port Morehead City,U.S.A.,2012,2019-10-29,0,0,0,0,0,,unmatched
+Tropical Cyclone Narelle,Port Dampier,Australia,2013,2019-01-12,2,2,2,6,3,,unmatched
+Tropical Cyclone Narelle,Port of Port Hedland,Australia,2013,2019-01-12,0,0,0,0,0,,unmatched
+Tropical Cyclone Narelle,Port Walcott,Australia,2013,2019-01-12,1,3,1,5,3,,unmatched
+Tropical Cyclone Narelle,Port Geraldton,Australia,2013,2019-01-12,4,0,2,6,2,,unmatched
+Tropical Cyclone Narelle,Port Fremantle,Australia,2013,2019-01-12,3,0,0,3,1,,unmatched
+Tropical Cyclone Narelle,Port Bunbury,Australia,2013,2019-01-12,0,0,0,0,0,,unmatched
+Tropical Cyclone Narelle,Port Darwin,Australia,2013,2019-01-12,0,0,0,0,0,,unmatched
+Tropical Cyclone Oswald,Port Hay Point,Australia,2013,2019-01-20,0,0,0,0,0,,unmatched
+Tropical Cyclone Oswald,Port Mackay,Australia,2013,2019-01-20,5,0,2,7,3,,unmatched
+Tropical Cyclone Oswald,Port Gladstone,Australia,2013,2019-01-20,2,0,0,2,1,,unmatched
+Tropical Cyclone Oswald,Port Townsville,Australia,2013,2019-01-20,2,0,0,2,1,,unmatched
+Tropical Cyclone Peta,Port Dampier,Australia,2013,2019-01-23,2,0,0,2,1,,unmatched
+Tropical Cyclone Peta,Port of Port Hedland,Australia,2013,2019-01-23,3,0,2,5,3,,unmatched
+Tropical Cyclone Peta,Port Walcott,Australia,2013,2019-01-23,3,1,2,6,3,,unmatched
+Tropical Cyclone Peta,Port Geraldton,Australia,2013,2019-01-23,0,0,0,0,0,,unmatched
+Tropical Cyclone Peta,Port Fremantle,Australia,2013,2019-01-23,0,0,0,0,0,,unmatched
+Tropical Cyclone Peta,Port Bunbury,Australia,2013,2019-01-23,0,0,0,0,0,,unmatched
+Tropical Cyclone Peta,Port Darwin,Australia,2013,2019-01-23,2,0,0,2,1,,unmatched
+Tropical Cyclone Rusty,Port of Dampier,Australia,2013,2019-02-27,3,2,1,6,3,,unmatched
+Tropical Cyclone Rusty,Port of Port Hedland,Australia,2013,2019-02-27,2,3,2,7,3,,unmatched
+Tropical Cyclone Rusty,Port Walcott,Australia,2013,2019-02-27,1,3,1,5,3,,unmatched
+Tropical Cyclone Rusty,Port Geraldton,Australia,2013,2019-02-27,0,0,0,0,0,,unmatched
+Tropical Cyclone Rusty,Port Fremantle,Australia,2013,2019-02-27,5,0,0,5,2,,unmatched
+Tropical Cyclone Rusty,Port Bunbury,Australia,2013,2019-02-27,0,0,0,0,0,,unmatched
+Tropical Cyclone Rusty,Port Darwin,Australia,2013,2019-02-27,0,0,0,0,0,,unmatched
+Tropical Cyclone Christine,Port Dampier,Australia,2014,2019-01-01,4,1,2,7,3,,unmatched
+Tropical Cyclone Christine,Port of Port Hedland,Australia,2014,2019-01-01,2,2,4,8,3,,unmatched
+Tropical Cyclone Christine,Port Walcott,Australia,2014,2019-01-01,0,7,2,9,3,,unmatched
+Tropical Cyclone Christine,Port Geraldton,Australia,2014,2019-01-01,0,0,0,0,0,,unmatched
+Tropical Cyclone Christine,Port Fremantle,Australia,2014,2019-01-01,0,0,0,0,0,,unmatched
+Tropical Cyclone Christine,Port Bunbury,Australia,2014,2019-01-01,0,0,0,0,0,,unmatched
+Tropical Cyclone Christine,Port Darwin,Australia,2014,2019-01-01,0,0,0,0,0,,unmatched
+Tropical Cyclone Ita,Port Hay Point,Australia,2014,2019-04-05,0,0,0,0,0,,unmatched
+Tropical Cyclone Ita,Port Mackay,Australia,2014,2019-04-05,0,0,0,0,0,,unmatched
+Tropical Cyclone Ita,Port Gladstone,Australia,2014,2019-04-05,1,0,2,3,1,,unmatched
+Tropical Cyclone Ita,Port Townsville,Australia,2014,2019-04-05,3,0,0,3,1,,unmatched
+Tropical Cyclone Marcia,Port Hay Point,Australia,2015,2019-02-20,4,0,2,6,2,,unmatched
+Tropical Cyclone Marcia,Port Gladstone,Australia,2015,2019-02-20,2,0,2,4,2,,unmatched
+Tropical Cyclone Marcia,Port Townsville,Australia,2015,2019-02-20,0,5,1,6,3,,unmatched
+Tropical Cyclone Nathan,Port Hay Point,Australia,2015,2019-03-20,4,0,2,6,3,,unmatched
+Tropical Cyclone Nathan,Port Gladstone,Australia,2015,2019-03-20,1,1,3,5,3,,unmatched
+Tropical Cyclone Nathan,Port Townsville,Australia,2015,2019-03-20,0,2,2,4,3,,unmatched
+Tropical Cyclone Olwyn,Port Dampier,Australia,2015,2019-03-13,3,1,1,5,3,,unmatched
+Tropical Cyclone Olwyn,Port of Port Hedland,Australia,2015,2019-03-13,0,0,0,0,1,,unmatched
+Tropical Cyclone Olwyn,Port Geraldton,Australia,2015,2019-03-13,0,2,2,4,3,,unmatched
+Tropical Cyclone Olwyn,Port Fremantle,Australia,2015,2019-03-13,0,0,0,0,0,,unmatched
+Tropical Cyclone Olwyn,Port Bunbury,Australia,2015,2019-03-13,0,0,0,0,0,,unmatched
+Tropical Cyclone Olwyn,Port Darwin,Australia,2015,2019-03-13,0,0,0,0,0,,unmatched
+Tropical Cyclone Quang,Port Dampier,Australia,2015,2019-05-01,0,0,0,0,0,,unmatched
+Tropical Cyclone Quang,Port of Port Hedland,Australia,2015,2019-05-01,0,0,0,0,0,,unmatched
+Tropical Cyclone Quang,Port Walcott,Australia,2015,2019-05-01,2,1,2,5,3,,unmatched
+Tropical Cyclone Quang,Port Geraldton,Australia,2015,2019-05-01,0,0,0,0,0,,unmatched
+Tropical Cyclone Quang,Port Fremantle,Australia,2015,2019-05-01,2,0,0,2,1,,unmatched
+Tropical Cyclone Quang,Port Bunbury,Australia,2015,2019-05-01,4,0,1,5,2,,unmatched
+Tropical Cyclone Quang,Port Darwin,Australia,2015,2019-05-01,0,0,0,0,0,,unmatched
+Hurricane Matthew,Port of Jacksonville,U.S.A.,2016,2019-10-08,6,0,2,8,3,,unmatched
+Hurricane Matthew,Port of Savannah,U.S.A.,2016,2019-10-08,1,4,2,7,3,,unmatched
+Hurricane Matthew,Port of Charleston,U.S.A.,2016,2019-10-08,2,2,3,7,3,,unmatched
+Hurricane Matthew,Port Everglades,U.S.A.,2016,2019-10-08,2,1,1,4,3,,unmatched
+Hurricane Matthew,Port of Miami,U.S.A.,2016,2019-10-08,0,1,1,2,3,,unmatched
+Hurricane Matthew,Port Palm Beach,U.S.A.,2016,2019-10-08,1,2,1,4,3,,unmatched
+Hurricane Matthew,Port Canaveral,U.S.A.,2016,2019-10-08,4,2,2,8,3,,unmatched
+Hurricane Matthew,Port Tampa,U.S.A.,2016,2019-10-08,2,0,1,3,2,,unmatched
+Hurricane Matthew,Port Mobile,U.S.A.,2016,2019-10-08,0,0,0,0,0,,unmatched
+Hurricane Matthew,Port South Louisiana,U.S.A.,2016,2019-10-08,0,0,0,0,0,,unmatched
+Hurricane Matthew,Port of Houston,U.S.A.,2016,2019-10-08,2,0,0,2,1,,unmatched
+Hurricane Matthew,Port Arthur and Port Beaumont,U.S.A.,2016,2019-10-08,2,0,0,2,1,,unmatched
+Hurricane Matthew,Delaware area,U.S.A.,2016,2019-10-08,0,0,0,0,0,,unmatched
+Hurricane Matthew,Port Baltimore,U.S.A.,2016,2019-10-08,2,0,5,7,1,,unmatched
+Hurricane Harvey,Port of Houston,U.S.A.,2017,2019-08-25,1,4,6,11,3,,unmatched
+Hurricane Harvey,Port of Corpus Christi,U.S.A.,2017,2019-08-25,3,7,4,14,3,,unmatched
+Hurricane Harvey,Calhoun Port Authority,U.S.A.,2017,2019-08-25,1,9,2,12,3,,unmatched
+Hurricane Harvey,Port Arthur and Port Beaumont,U.S.A.,2017,2019-08-25,4,8,6,18,3,,unmatched
+Hurricane Harvey,Port New Orleans,U.S.A.,2017,2019-08-25,2,0,0,2,0,,unmatched
+Hurricane Harvey,Port Mobile,U.S.A.,2017,2019-08-25,4,0,2,6,1,,unmatched
+Hurricane Harvey,Port Pascagoula,U.S.A.,2017,2019-08-25,0,0,0,0,0,,unmatched
+Hurricane Harvey,Port South Louisiana,U.S.A.,2017,2019-08-25,0,0,0,0,0,,unmatched
+Hurricane Harvey,LOOP,U.S.A.,2017,2019-08-25,0,0,0,0,0,,unmatched
+Hurricane Harvey,Freeport,U.S.A.,2017,2019-08-25,2,6,2,10,3,,unmatched
+Hurricane Irma,Port Everglades,U.S.A.,2017,2019-09-10,2,3,2,7,3,,unmatched
+Hurricane Irma,Port Miami,U.S.A.,2017,2019-09-10,1,4,2,7,3,,unmatched
+Hurricane Irma,Port Palm Beach,U.S.A.,2017,2019-09-10,1,4,1,6,3,,unmatched
+Hurricane Irma,Port Canaveral,U.S.A.,2017,2019-09-10,2,4,3,9,3,,unmatched
+Hurricane Irma,Port of Charleston,U.S.A.,2017,2019-09-10,2,1,3,6,3,,unmatched
+Hurricane Irma,Port of Savannah,U.S.A.,2017,2019-09-10,2,3,1,6,3,,unmatched
+Hurricane Irma,Port of Jacksonville,U.S.A.,2017,2019-09-10,1,3,1,5,3,,unmatched
+Hurricane Irma,Port Tampa,U.S.A.,2017,2019-09-10,1,2,1,4,3,,unmatched
+Hurricane Irma,Port Mobile,U.S.A.,2017,2019-09-10,3,0,3,6,1,,unmatched
+Hurricane Irma,Port South Louisiana,U.S.A.,2017,2019-09-10,0,0,0,0,0,,unmatched
+Hurricane Irma,Port of Houston,U.S.A.,2017,2019-09-10,0,0,0,0,0,,unmatched
+Hurricane Irma,Port Arthur and Port Beaumont,U.S.A.,2017,2019-09-10,0,0,0,0,0,,unmatched
+Hurricane Maria,Port Morehead City,U.S.A.,2017,2019-09-26,0,0,0,0,0,,unmatched
+Hurricane Maria,Port Wilmington,U.S.A.,2017,2019-09-26,0,0,0,0,0,,unmatched
+Hurricane Maria,Port of Charleston,U.S.A.,2017,2019-09-26,3,0,1,4,1,,unmatched
+Hurricane Maria,Port Hampton Roads,U.S.A.,2017,2019-09-26,0,0,0,0,0,,unmatched
+Hurricane Maria,Port Baltimore,U.S.A.,2017,2019-09-26,4,0,2,6,1,,unmatched
+Hurricane Maria,Port of Savannah,U.S.A.,2017,2019-09-26,2,0,2,4,1,,unmatched
+Hurricane Maria,Port of Jacksonville,U.S.A.,2017,2019-09-26,3,0,3,6,1,,unmatched
+Tropical Cyclone Debbie,Port Hay Point,Australia,2017,2019-03-28,2,3,40,45,3,,unmatched
+Tropical Cyclone Debbie,Port Gladstone,Australia,2017,2019-03-28,2,0,2,4,1,,unmatched
+Tropical Cyclone Debbie,Port Townsville,Australia,2017,2019-03-28,2,3,1,6,3,,unmatched
+Hurricane Barry,Port of Houston,U.S.A.,2019,2019-07-13,0,0,0,0,0,,unmatched
+Hurricane Barry,Freeport,U.S.A.,2019,2019-07-13,0,0,0,0,0,,unmatched
+Hurricane Barry,Port of Corpus Christi,U.S.A.,2019,2019-07-13,0,0,0,0,0,,unmatched
+Hurricane Barry,Calhoun Port Authority,U.S.A.,2019,2019-07-13,0,0,0,0,0,,unmatched
+Hurricane Barry,Port Arthur and Port Beaumont,U.S.A.,2019,2019-07-13,3,0,2,5,1,,unmatched
+Hurricane Barry,Port New Orleans,U.S.A.,2019,2019-07-13,3,0,2,5,2,,unmatched
+Hurricane Barry,Port Mobile,U.S.A.,2019,2019-07-13,2,0,1,3,1,,unmatched
+Hurricane Barry,Port Pascagoula,U.S.A.,2019,2019-07-13,0,0,0,0,0,,unmatched
+Hurricane Barry,Port South Louisiana,U.S.A.,2019,2019-07-13,1,0,0,1,1,,unmatched
+Hurricane Barry,Port Fourchon,U.S.A.,2019,2019-07-13,2,0,1,3,1,,unmatched
+Hurricane Dorian,Freeport,Bahamas,2019,2019-09-01,1,4,16,21,3,,unmatched
+Hurricane Dorian,Kingston,Jamaica,2019,2019-09-01,6,0,1,7,1,,unmatched
+Hurricane Dorian,Manzanillo,Mexico,2019,2019-09-01,0,0,0,0,0,,unmatched
+Hurricane Dorian,Colon,Panama,2019,2019-09-01,0,0,0,0,0,,unmatched
+Hurricane Dorian,Cartagena_Mamonal,Colombia,2019,2019-09-01,0,0,0,0,0,,unmatched
+Hurricane Dorian,Caucedo,Dominican Republic,2019,2019-09-01,3,0,3,6,1,,unmatched
+Hurricane Dorian,Cristobal,Panama,2019,2019-09-01,9,0,2,11,1,,unmatched
+Hurricane Dorian,Port of Jacksonville,U.S.A.,2019,2019-09-01,3,3,2,8,3,,unmatched
+Hurricane Dorian,Port of Savannah,U.S.A.,2019,2019-09-01,3,3,3,9,3,,unmatched
+Hurricane Dorian,Port of Charleston,U.S.A.,2019,2019-09-01,3,0,2,5,1,,unmatched
+Hurricane Dorian,Port Everglades,U.S.A.,2019,2019-09-01,3,2,1,6,3,,unmatched
+Hurricane Dorian,Port of Miami,U.S.A.,2019,2019-09-01,1,2,2,5,3,,unmatched
+Hurricane Dorian,Port Palm Beach,U.S.A.,2019,2019-09-01,0,4,2,6,3,,unmatched
+Hurricane Dorian,Port Baltimore,U.S.A.,2019,2019-09-01,4,0,0,4,0,,unmatched
+Hurricane Idai,Beira,Mozambique,2019,2019-03-15,12,0,4,16,3,,unmatched
+Hurricane Idai,Maputo,Mozambique,2019,2019-03-15,3,0,1,4,1,,unmatched
+Hurricane Idai,Dar es Salaam,Tanzania,2019,2019-03-15,0,0,0,0,0,,unmatched
+Hurricane Idai,Mombasa,Kenya,2019,2019-03-15,0,0,0,0,0,,unmatched
+Hurricane Idai,Durban,South Africa,2019,2019-03-15,0,0,0,0,0,,unmatched
+Queensland floods,Port Hay Point,Australia,2019,0001-02-01,7,0,5,12,2,,unmatched
+Queensland floods,Port Gladstone,Australia,2019,0001-02-01,1,0,2,3,1,,unmatched
+Queensland floods,Port Townsville,Australia,2019,0001-02-01,9,0,2,11,3,,unmatched
+Queensland floods,Port Abbot Point,Australia,2019,0001-02-01,1,8,4,13,3,,unmatched
+Tropical Cyclone Veronica,Port Dampier,Australia,2019,2019-03-22,4,4,3,11,3,,unmatched
+Tropical Cyclone Veronica,Port of Port Hedland,Australia,2019,2019-03-22,2,3,5,10,3,,unmatched
+Tropical Cyclone Veronica,Port Walcott,Australia,2019,2019-03-22,2,7,7,16,3,,unmatched
+Tropical Cyclone Veronica,Port Geraldton,Australia,2019,2019-03-22,0,0,0,0,0,,unmatched
+Tropical Cyclone Veronica,Port Fremantle,Australia,2019,2019-03-22,4,0,1,5,1,,unmatched
+Tropical Cyclone Veronica,Port Bunbury,Australia,2019,2019-03-22,0,0,0,0,0,,unmatched
+Tropical Cyclone Veronica,Port Darwin,Australia,2019,2019-03-22,0,0,0,0,0,,unmatched
+Typhoon Hagibis,Tokyo area,Japan,2019,2019-10-07,3,1,3,7,3,,unmatched
+Typhoon Hagibis,Mikawa,Japan,2019,2019-10-07,4,0,2,6,1,,unmatched
+Typhoon Hagibis,Nagoya,Japan,2019,2019-10-07,3,0,3,6,2,,unmatched
+Typhoon Hagibis,Yorkaichi,Japan,2019,2019-10-07,5,0,3,8,3,,unmatched
+Typhoon Hagibis,Wakatama-Shimotsu,Japan,2019,2019-10-07,5,0,1,6,3,,unmatched
+Typhoon Hagibis,Kobe,Japan,2019,2019-10-07,2,0,3,5,2,,unmatched
+Typhoon Hagibis,Osaka_Sakai-Senboku,Japan,2019,2019-10-07,2,0,3,5,2,,unmatched
+Typhoon Hagibis,Higashi-Harima,Japan,2019,2019-10-07,2,0,2,4,1,,unmatched
+Typhoon Hagibis,Himeji,Japan,2019,2019-10-07,2,0,2,4,1,,unmatched
+Typhoon Hagibis,Mizushima Ko,Japan,2019,2019-10-07,2,0,3,5,1,,unmatched
+Typhoon Hagibis,Fukuyama,Japan,2019,2019-10-07,2,0,3,5,1,,unmatched
+Typhoon Hagibis,Fukui Ko,Japan,2019,2019-10-07,0,0,0,0,0,,unmatched
+Typhoon Hagibis,Miyazy,Japan,2019,2019-10-07,0,0,0,0,0,,unmatched
+Typhoon Hagibis,Busan,South-Korea,2019,2019-10-07,0,0,0,0,0,,unmatched
+Typhoon Hagibis,Sendai,Japan,2019,2019-10-07,2,2,2,6,3,,unmatched
+Typhoon Hagibis,Niigata,Japan,2019,2019-10-07,5,0,4,9,2,,unmatched
+Typhoon Hagibis,Akita,Japan,2019,2019-10-07,0,0,0,0,0,,unmatched
+Typhoon Lekima,Haimen,China,2019,2019-08-09,4,1,3,8,3,,unmatched
+Typhoon Lekima,Tianjin,China,2019,2019-08-09,3,0,3,6,2,,unmatched
+Typhoon Lekima,Wenzhou,China,2019,2019-08-09,2,41,2,45,1,,unmatched
+Typhoon Lekima,Qingdao Gang,China,2019,2019-08-09,2,0,2,4,1,,unmatched
+Typhoon Lekima,Xiamen,China,2019,2019-08-09,0,0,0,0,0,,unmatched
+Typhoon Lekima,Hong Kong,China,2019,2019-08-09,0,0,0,0,0,,unmatched
+Typhoon Lekima,Chi-lung,Taiwan,2019,2019-08-09,3,0,2,5,1,,unmatched
+Typhoon Lekima,Tan-shui,Taiwan,2019,2019-08-09,3,0,3,6,3,,unmatched
+Typhoon Lekima,Tai-Chung Kang,Taiwan,2019,2019-08-09,2,0,1,3,1,,unmatched
+Typhoon Lekima,Mailiao,Taiwan,2019,2019-08-09,0,0,0,0,0,,unmatched
+Typhoon Lekima,Kao-Hsiung,Taiwan,2019,2019-08-09,2,0,2,4,1,,unmatched
+Typhoon Lekima,Zhapu,China,2019,2019-08-09,1,3,2,6,3,,unmatched
+Typhoon Lekima,Ningbo,China,2019,2019-08-09,2,0,1,3,1,,unmatched
+Typhoon Lekima,Zhoushan,China,2019,2019-08-09,2,0,1,3,1,,unmatched
+Typhoon Lekima,Fuzhou,China,2019,2019-08-09,2,0,1,3,3,,unmatched
+Typhoon Lekima,Quanzhou,China,2019,2019-08-09,0,0,0,0,0,,unmatched
+Typhoon Lingling,Ulsan,South-Korea,2019,2019-09-04,2,0,1,3,1,,unmatched
+Typhoon Lingling,Busan,South-Korea,2019,2019-09-04,2,0,2,4,1,,unmatched
+Typhoon Lingling,Masan,South-Korea,2019,2019-09-04,0,0,0,0,0,,unmatched
+Typhoon Lingling,Gwangyang Hang,South Korea,2019,2019-09-04,0,0,0,0,0,,unmatched
+Typhoon Lingling,Pyuongtaek Hang,South Korea,2019,2019-09-04,4,0,2,6,2,,unmatched
+Typhoon Lingling,Inchon,South Korea,2019,2019-09-04,4,0,2,6,2,,unmatched
+Typhoon Lingling,Tokyo area,Japan,2019,2019-09-04,0,0,0,0,0,,unmatched
+Typhoon Lingling,Kobe,Japan,2019,2019-09-04,0,0,0,0,0,,unmatched
+Typhoon Mitag,Chi-lung,Taiwan,2019,2019-09-30,3,0,1,4,1,,unmatched
+Typhoon Mitag,Tan-shui,Taiwan,2019,2019-09-30,3,0,3,6,3,,unmatched
+Typhoon Mitag,Tai-Chung Kang,Taiwan,2019,2019-09-30,0,0,0,0,0,,unmatched
+Typhoon Mitag,Mailiao,Taiwan,2019,2019-09-30,0,0,0,0,0,,unmatched
+Typhoon Mitag,Kao-Hsiung,Taiwan,2019,2019-09-30,0,0,0,0,0,,unmatched
